@@ -972,7 +972,6 @@ void limSendP2PActionFrame(tpAniSirGlobal pMac, tpSirMsgQ pMsg)
     v_U8_t              *pNewP2PIe = NULL;
     v_U16_t             remainLen = 0;
 #ifdef WLAN_FEATURE_11W
-#pragma GCC diagnostic ignored "-Wuninitialized"
     tpSirMacMgmtHdr        pMacHdr;
     tpSirMacActionFrameHdr pActionHdr;
 #endif
