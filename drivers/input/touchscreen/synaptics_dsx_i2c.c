@@ -2475,7 +2475,8 @@ static int vkey_release(unsigned char finger)
 
 	if(!pressed_vkey) return 0;
 
-	for(int i=0; i<3; i++)
+	int i;
+	for(i=0; i<3; i++)
 	{
 		if(vkey_finger[i] == finger)
 		{
